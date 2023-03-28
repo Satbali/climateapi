@@ -70,11 +70,11 @@ newspapers.forEach((newspaper) => {
 })
 
 
-app.get('/', (req, res) => {
+app.get('https://satbali.github.io/climateapi/', (req, res) => {
     res.send('all looks good')
 })
 
-app.get('/news', (req, res) => {
+app.get('https://satbali.github.io/climateapi/news', (req, res) => {
     res.json(articles)
 })
 
